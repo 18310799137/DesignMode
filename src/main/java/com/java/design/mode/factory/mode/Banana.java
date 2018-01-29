@@ -1,0 +1,10 @@
+package com.java.design.mode.factory.mode;
+
+public class Banana implements Fruit {
+
+	@Override
+	public void CanEat() {
+		System.out.println("Eat Banana");
+	}
+
+}
