@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
+/**
+ * 构建者模式
+ * 
+ * @author FreeGuardian
+ *
+ */
 public class Test {
 
 	public static List<Food> Builder(List<Food> list) {

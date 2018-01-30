@@ -1,5 +1,11 @@
 package com.java.design.mode.abstracts.factory;
 
+/**
+ * 抽象工厂模式
+ * 
+ * @author FreeGuardian
+ *
+ */
 public class AbstractFactoryTest {
 
 	public static void main(String[] args) {
