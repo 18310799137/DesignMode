@@ -1,11 +1,18 @@
 package com.java.design.mode.visitor;
 
+/**
+ * description: 声明访问者接口
+ * author: Free
+ * email: ghzhang@metinform.cn
+ * date: 2019/4/17 11:14
+ * version: 1.0
+ **/
 public interface ComputerPartVisitor {
-	public void visit(Computer computer);
+    void visit(Computer computer);
 
-	public void visit(Mouse mouse);
+    void visit(Mouse mouse);
 
-	public void visit(Keyboard keyboard);
+    void visit(Keyboard keyboard);
 
-	public void visit(Monitor monitor);
+    void visit(Monitor monitor);
 }

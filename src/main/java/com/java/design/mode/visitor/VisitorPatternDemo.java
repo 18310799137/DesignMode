@@ -1,15 +1,16 @@
 package com.java.design.mode.visitor;
 
 /**
- * 访问者模式
- * 
- * @author FreeGuardian
- *
- */
+ * description: 访问者模式
+ * author: Free
+ * email: ghzhang@metinform.cn
+ * date: 2019/4/17 10:55
+ * version: 1.0
+ **/
 public class VisitorPatternDemo {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		ComputerPart computer = new Computer();
-		computer.accept(new ComputerPartDisplayVisitor());
-	}
+        ComputerPart computer = new Computer();
+        computer.accept(new ComputerPartDisplayVisitor());
+    }
 }
